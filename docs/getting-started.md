@@ -44,7 +44,7 @@ gem "devise"
 ## 5. Create an Admin User
 ````bash
 > rails c
-User.create(email: 'buzz@example.com', password: 'DemoPassword123!', site_admin: true)
+User.create(email: 'buzz@example.com', password: 'DemoPassword123!', site_admin: true, debug: true)
 ````
 
 ## 6. Make sure User responds to full_name
@@ -56,5 +56,14 @@ end
 
 ## 7.  Setup Sass files. 
 ````sass
+# application.scss
 @import "admin_helpers";
 ````
+
+## Wrap up
+And that's it.  Use the standard devise screens to sign in - eg at [http://localhost:3000/users/sign_in](http://localhost:3000/users/sign_in).
+
+
+
+Next, lets [Add Snippets](/docs/snippets)
+
