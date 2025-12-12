@@ -94,12 +94,18 @@ nav.side-nav {
   padding: 1em;
 }
 
+nav.side-nav h4{
+  color: white;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+
 nav.side-nav a {
   text-decoration: none;
   color: #eeeeee;
   display: block;
   padding: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-family: var(--header-font);
   transition: all 0.2s ease;
 }

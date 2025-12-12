@@ -1,8 +1,8 @@
-title: "Rocket"
+title: "HoustonCMS"
 email: will@kindleman.com.au
 timezone: UTC
 baseurl: ""
-url: https://www.rocket.kindleman.com.au
+url: https://www.houstoncms.kindleman.com.au
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -33,7 +33,7 @@ authors:
     email: will@kindleman.com.au
     web: https://www.kindleman.com.au
     twitter: https://twitter.com/kindlemanuk
-    description: "Author of Rocket, a simple rails CMS."  
+    description: "Author of Houston, a simple rails CMS."  
 
 # Social
 social:
