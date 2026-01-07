@@ -23,9 +23,11 @@ html {
 h1, h2, h3{
   color: var(--header-color);
   font-family: var(--header-font);
-
+ 
 }
-
+h2, h3{
+   margin-top: 2em;
+}
 /* Header Styles */
 .site-header {
   font-family: var(--header-font);
@@ -224,4 +226,15 @@ footer a {
 
 footer a:hover {
   color: #ffffff;
+}
+
+.content{
+  a{
+    color: white;
+    text-decoration: underline;
+  }
+  img{
+    display: block;
+    margin: 1em auto;
+  }
 }

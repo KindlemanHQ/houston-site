@@ -3,19 +3,21 @@ title: With Launchpad
 layout: docs
 ---
 
+# Launchpad Rails Template
 The easiest way to get started is to create a new project with Launchpad, our Rails starter template.  It will include everything you need to get going. 
 
-1. Download the template
+
+## 1. Download the template
 ````bash 
 git clone git@github.com:KindlemanHQ/launchpad.git
 ````
 
-2. Create your rails app
+## 2. Create your rails app
 ````bash
   rails new yawebsite -a propshaft  -d sqlite3  -m launchpad/template.rb
 ````
 
-3.  Watch it build all your things!
+## 3.  Watch it build all your things!
 
 Once done, start your site in the usual way and check out all your functionality. 
 
@@ -23,7 +25,8 @@ Once done, start your site in the usual way and check out all your functionality
 bin/dev
 ````
 
-4.  You will want to create a site_admin user, we do not do that automatically for security.  Sign up using the site links and then update your user to be site_admin in the console.
+## 4. Setup User
+You will want to create a site_admin user, we do not do that automatically for security.  Sign up using the site links and then update your user to be site_admin in the console.
 <br><br>
 
 ![Sign up using the site links](/assets/images/signup.webp)
@@ -40,3 +43,7 @@ And now you can follow the link in the user drop down to go to /admin and see th
 
 
 ![Site Admin](/assets/images/siteadmin.webp)
+
+
+## 5. Start Development
+Review and commit your changes so far.  You are now all set to start customising your app and making something great, with all the wind in your sails of Ruby, Rails, Houston and some solid defaults.  
