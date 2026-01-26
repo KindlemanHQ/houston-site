@@ -104,5 +104,5 @@ Add the templates you need.
 <% end %>
 ````
 
-And thats it! You can view your pages.  Notice how easy it is to change the page show template to match your site design.  Houston is giving your powers without restrictions.  
+And that's it! You can view your pages.  Notice how easy it is to change the page show template to match your site design.  Houston is giving you powers without restrictions.  
 

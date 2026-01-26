@@ -4,4 +4,22 @@ layout: docs
 ---
 # Adding Models
 
-rails g scaffold_controller Admin/Question number:integer text:string hint:text response_option_id:integer    --model-name="Question"
+
+To generate an admin section for an existing model, you can run the generator:
+
+````
+  rails g scaffold_controller Admin/Boat name:string description:text length:integer    --model-name="Boat"
+````
+
+override app/views/admin/shared/sidebar/_app_specific.html.erb to add admin areas for app specific items
+
+````ruby
+<ul class="admin-sidebar-menu" >
+  <li class="">
+    <a href="/admin/boats" class="">
+      <i class="bi bi-link-45deg"></i>
+      <span class="">Boats</span>
+    </a>
+  </li> 
+</ul>
+````
