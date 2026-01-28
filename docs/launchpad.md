@@ -17,9 +17,15 @@ git clone git@github.com:KindlemanHQ/launchpad.git
   rails new yawebsite -a propshaft  -d sqlite3  -m launchpad/template.rb
 ````
 
-## 3.  Watch it build all your things!
+## 3.  Run some generators
+
+````bash 
+rails g bootstrap:install  --simpleform --pagination
+````
 
 Once done, start your site in the usual way and check out all your functionality. 
+
+
 
 ````bash
 bin/dev
