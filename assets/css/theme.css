@@ -251,7 +251,22 @@ img.bordered{
 }
 
 
-hr{
+
+
+hr {
+  border-color: #000 !important;
+  background: #000 !important;
+  color: #000 !important;
+  border: none;
   height: 1px;
-  background-color: #000;
+}
+.content{
+  ul{
+    margin-top: 2em;
+    margin-left: 20px;
+    list-style: disc;
+    li{
+      margin-bottom: 10px;;
+    }
+  }
 }
