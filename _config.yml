@@ -1,8 +1,8 @@
 title: "HoustonCMS"
 email: will@kindleman.com.au
 timezone: UTC
-baseurl: ""
-url: https://www.houstoncms.kindleman.com.au
+baseurl: "/houston-site"
+url: "https://kindlemanhq.github.io/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
