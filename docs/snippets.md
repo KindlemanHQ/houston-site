@@ -9,7 +9,7 @@ So, login to /admin and click **Snippets** in the side menu.
 
 Click <b>New Snippet</b>.  
 
-![Snippets](/assets/images/snippets.webp)
+![Snippets]({{site.baseurl}}/assets/images/snippets.webp)
 
 The resulting form is self explanatory.  Give your snippet a name.  Lets try home-title.  Give it some content introducing your lovely website.  You can use markup.  Click <b>Create Snippet</b>.
 

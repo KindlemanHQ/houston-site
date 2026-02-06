@@ -29,7 +29,7 @@ end
 ## Using Pages
 Restart the dev server and follow the sidebar links to create a page. The Slug field will auto-generate from the title, or you can override it here. 
 
-![Create Page](/assets/images/create-page.webp)
+![Create Page]({{site.baseurl}}/assets/images/create-page.webp)
 
 
 

@@ -35,7 +35,7 @@ bin/dev
 You will want to create a site_admin user, we do not do that automatically for security.  Sign up using the site links and then update your user to be site_admin in the console.
 <br><br>
 
-![Sign up using the site links](/assets/images/signup.webp)
+![Sign up using the site links]({{site.baseurl}}/assets/images/signup.webp)
 
 
 ````bash
@@ -48,7 +48,7 @@ u.save
 And now you can follow the link in the user drop down to go to /admin and see the admin functionality. 
 
 
-![Site Admin](/assets/images/siteadmin.webp)
+![Site Admin]({{site.baseurl}}/assets/images/siteadmin.webp)
 
 
 ## 5. Start Development

@@ -5,7 +5,7 @@ layout: docs
 # Adding Models
 Houston will generate admin views for your models.  they look nice and are 100% editable.  
 
-![boats](/assets/images/boats.webp)
+![boats]({{site.baseurl}}/assets/images/boats.webp)
 
 To generate an admin section for an existing model, you can run the task:
 
@@ -35,5 +35,5 @@ To link to your fancy new admin,  override app/views/admin/shared/sidebar/_app_s
 </ul>
 ````
 
-You can choose any icon from the bootstrap icons set.  or of course customise this HTML to show whatever you want.  it's just HTML and CSS. 
+You can choose any icon from the  [bootstrap icons set](https://icons.getbootstrap.com/) .  or of course customise this HTML to show whatever you want.  it's just HTML and CSS. 
 
